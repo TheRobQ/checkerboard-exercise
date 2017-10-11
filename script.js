@@ -13,6 +13,6 @@ div.style.width = '11.1%';
 //        div.style.backgroundColor = 'black';
 //        }
 // else {div.style.backgroundColor = 'red'};
-div.style.backgroundColor = 'rgb(' + (Math.floor(Math.random() * 255)) + ',' + (Math.floor(Math.random() * 255)) + ',' + (Math.floor(Math.random() * 255)) + ')';
+div.style.backgroundColor = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
 body.appendChild(div)
 }
