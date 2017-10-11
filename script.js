@@ -1,3 +1,4 @@
+// document.addEventListener("DOMContentLoaded", function){
 // Your JS goes here
 
 for(var i = 0; i < 81; i++){
@@ -7,9 +8,10 @@ for(var i = 0; i < 81; i++){
 div.style.float ='left';
 div.style.paddingBottom = '11.1%';
 div.style.width = '11.1%';
-if(i % 2 === 0){
-       div.style.backgroundColor = 'black';
-       }
-else {div.style.backgroundColor = 'red'};
+// if(i % 2 === 0){
+//        div.style.backgroundColor = 'black';
+//        }
+// else {div.style.backgroundColor = 'red'};
+div.style.backgroundColor = rgb(234, 23, 35)
 body.appendChild(div)
 }
