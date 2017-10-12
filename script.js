@@ -1,4 +1,4 @@
-// document.addEventListener("DOMContentLoaded", function){
+ document.addEventListener("DOMContentLoaded", function(){
 // Your JS goes here
 
 for(var i = 0; i < 81; i++){
@@ -16,3 +16,4 @@ div.style.width = '11.1%';
 div.style.backgroundColor = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
 body.appendChild(div)
 }
+})
