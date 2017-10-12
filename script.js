@@ -8,8 +8,11 @@ for(var i = 0; i < 81; i++){
 div.style.float ='left';
 div.style.paddingBottom = '11.1%';
 div.style.width = '11.1%';
+div.style.backgroundColor = 'rgb('+ (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) +')'
 function flashBox(){
+  for(var i = 0; i < 81; i++){
   div.style.backgroundColor = 'rgb('+ (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) +')';
-}
-}
+      }
+    }   
 setInterval(flashBox, 2000);
+}
