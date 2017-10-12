@@ -1,4 +1,4 @@
-// document.addEventListener("DOMContentLoaded", function){
+document.addEventListener("DOMContentLoaded", function(){
 // Your JS goes here
 
 for(var i = 0; i < 81; i++){
@@ -15,3 +15,4 @@ if (i % 2 === 0) {
 }
 body.appendChild(div)
 }
+})
