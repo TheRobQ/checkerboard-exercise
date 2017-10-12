@@ -1,4 +1,5 @@
-// Your JS goes here
+document.addEventListener("DOMContentLoaded", function(){
+  // Your JS goes here
 
 for(var i = 0; i < 81; i++){
   var body = document.getElementsByTagName('body')[0];
@@ -13,3 +14,4 @@ if(i % 2 === 0){
 else {div.style.backgroundColor = 'red'};
 body.appendChild(div)
 }
+})
